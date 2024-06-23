@@ -41,9 +41,11 @@ function Header() {
             <nav className='flex'>
               <div className='mr-4'>
                 <Link to='/'>
-                  <Logo width='70px'   />
+                  <div className='w-20'>
+                    <Logo />
+                  </div>
     
-                  </Link>
+                </Link>
               </div>
               <ul className='flex ml-auto'>
                 {navItems.map((item) => 

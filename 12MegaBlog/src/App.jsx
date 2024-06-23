@@ -33,11 +33,11 @@ function App() {
  }
  else{
   return(
-    <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
+    <div className='min-h-fit flex flex-wrap content-between bg-gray-400'>
       <div className='w-full block'>
         <Header />
-        <main>
-          Todo: <Outlet />
+        <main className='font-bold font-serif'>
+          BLOGS <Outlet />
         </main>
         <Footer />
       </div>
