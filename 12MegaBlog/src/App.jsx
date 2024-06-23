@@ -19,7 +19,7 @@ function App() {
     .then((userData) => {   // we get 'data' from the getCurrentUser method & that 'data' is then dispatched into login 
       if(userData){ // if we get data then we call dispatch
         dispatch(login({...userData}))
-        console.log(userData.$id);
+        //console.log(userData.$id);
       }
       else{  // if we don't get any data from getCurrentUser then we call logout so that our state is updated by the logout method
         dispatch(logout())
