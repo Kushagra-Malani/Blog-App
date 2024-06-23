@@ -33,10 +33,10 @@ function App() {
  }
  else{
   return(
-    <div className='min-h-fit flex flex-wrap content-between bg-gray-400'>
+    <div className='min-h-fit flex flex-wrap content-between bg-gray-400 shadow-2xl'>
       <div className='w-full block'>
         <Header />
-        <main className='font-bold font-serif'>
+        <main className='font-bold font-serif mt-2 text-2xl'>
           BLOGS <Outlet />
         </main>
         <Footer />
