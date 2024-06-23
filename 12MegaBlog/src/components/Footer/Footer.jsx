@@ -8,7 +8,7 @@ function Footer() {
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                     <div className="-m-6 flex flex-wrap">
                         <div className="w-full p-4 md:w-1/2 lg:w-5/12">
-                            <div className="flex h-full flex-col justify-center items-center">
+                            <div className="flex h-full flex-col translate-x-[-130px] justify-center items-center">
                                 <div className="w-[300px] inline-flex mb-2 items-center">
                                     <Logo />
                                 </div>

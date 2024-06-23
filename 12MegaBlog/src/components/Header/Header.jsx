@@ -58,7 +58,7 @@ function Header() {
               ) : null  // if item.active is false then null
               )}
               {authStatus && ( // if authStatus is true then LogoutBtn is displayed
-                <li className='bg-orange-400 shadow-xl rounded-full'>
+                <li className='bg-orange-400 shadow-xl rounded-full translate-x-[120px]'>
                   <LogoutBtn />
                 </li>
               )}
